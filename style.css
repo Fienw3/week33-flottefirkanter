@@ -1,16 +1,22 @@
 * {
     margin: 0%;
+    padding: 35px;
 }
 
 .container {
     background-color: #e7a9cb;
     padding: 10px;
-    height: 100px;
-    width: 100px;
 }
 
-.red div {
-    background-color: #ff2600;
-    width: 30px;
-    height: 30px;
+.red {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
+
+.red1, .red2, .red3  {
+    background-color: #ff2600;
+    width: 250px;
+    height: 180px;
+}
+
