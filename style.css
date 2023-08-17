@@ -1,0 +1,16 @@
+* {
+    margin: 0%;
+}
+
+.container {
+    background-color: #e7a9cb;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+}
+
+.red div {
+    background-color: #ff2600;
+    width: 30px;
+    height: 30px;
+}
